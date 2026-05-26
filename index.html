@@ -478,7 +478,7 @@
         <span class="stat-label">Planes emitidos</span>
       </div>
       <div>
-        <span class="stat-num">48h</span>
+        <span class="stat-num">8hs</span>
         <span class="stat-label">Entrega garantizada</span>
       </div>
       <div>
@@ -517,7 +517,7 @@
             <div class="plan-row-label">Progresión</div>
             <div class="plan-row-val">4 semanas estructuradas</div>
           </div>
-          <span class="plan-tag">PDF</span>
+          <span class="plan-tag">HTML</span>
         </div>
       </div>
       <button class="btn-download" onclick="document.getElementById('obtener-plan').scrollIntoView({behavior:'smooth'})">Obtener el mío →</button>
@@ -543,8 +543,8 @@
     </div>
     <div class="step">
       <div class="step-num">03</div>
-      <h3>Recibís todo en 48 hs</h3>
-      <p>Plan completo en PDF con ejercicios, series, descansos, progresión de 4 semanas y tips de recuperación.</p>
+      <h3>Recibís todo en menos de 8 hs</h3>
+      <p>Plan completo en formato HTML — se abre directo en el navegador de tu celular o computadora, sin necesidad de apps. Incluye ejercicios, series, descansos, progresión de 4 semanas y tips de recuperación.</p>
     </div>
   </div>
 </section>
@@ -562,8 +562,9 @@
       <ul class="plan-features">
         <li>Plan de 2 sesiones semanales</li>
         <li>Progresión de 4 semanas</li>
-        <li>Ejercicios con fotos y descripciones</li>
-        <li>Entrega en PDF en 48 hs</li>
+        <li>Ejercicios con descripciones detalladas</li>
+        <li>Formato HTML — abrís en cualquier navegador</li>
+        <li>Entrega en HTML en menos de 8 hs hábiles</li>
       </ul>
       <button class="plan-btn" onclick="selectPlan('basico')">Elegir básico</button>
     </div>
@@ -577,8 +578,9 @@
         <li>Progresión de 8 semanas</li>
         <li>Ejercicios con videos de referencia</li>
         <li>Sección de movilidad y recuperación</li>
+        <li>Formato HTML — perfecto en celular</li>
         <li>1 revisión del plan incluida</li>
-        <li>Entrega en 24 hs</li>
+        <li>Entrega en HTML en menos de 8 hs hábiles</li>
       </ul>
       <button class="plan-btn" onclick="selectPlan('premium')">Elegir premium</button>
     </div>
@@ -591,8 +593,9 @@
         <li>Progresión de 12 semanas</li>
         <li>Plan de nutrición básico incluido</li>
         <li>Seguimiento mensual por WhatsApp</li>
+        <li>Formato HTML — abrís en cualquier navegador</li>
         <li>Revisiones ilimitadas por 30 días</li>
-        <li>Entrega en 12 hs</li>
+        <li>Entrega en HTML en menos de 8 hs hábiles</li>
       </ul>
       <button class="plan-btn" onclick="selectPlan('elite')">Elegir elite</button>
     </div>
@@ -710,7 +713,7 @@
           <button class="btn-submit" onclick="handleSubmit()">
             Pagar y obtener mi plan →
           </button>
-          <p class="form-disclaimer">Al hacer clic serás redirigido a <strong>MercadoPago</strong> para completar el pago con tarjeta, débito o saldo MP.<br>Recibís tu plan en el email en un máximo de 48 hs hábiles.</p>
+          <p class="form-disclaimer">Al hacer clic serás redirigido a <strong>MercadoPago</strong> para completar el pago con tarjeta, débito o saldo MP.<br>Recibís tu plan en formato HTML en el email en menos de 8 hs hábiles — se abre directo en el navegador, sin apps.</p>
         </div>
 
       </div>
@@ -718,7 +721,7 @@
     <div class="success-overlay" id="success-state">
       <div class="success-icon">✓</div>
       <h3>¡Todo listo!</h3>
-      <p>Recibimos tu pedido. En las próximas 48 hs te enviamos el plan completo a tu email.</p>
+      <p>Recibimos tu pedido. En menos de 8 hs hábiles te enviamos el plan completo en formato HTML a tu email.</p>
     </div>
   </div>
 </section>
@@ -788,7 +791,7 @@
         ¿En qué formato recibo el plan?
         <span class="icon">+</span>
       </button>
-      <div class="faq-a">PDF descargable, con el detalle de cada ejercicio (nombre, series, reps, descanso, descripción) y la progresión semana a semana. El Premium y Elite incluyen links a videos de referencia.</div>
+      <div class="faq-a">Tu plan llega por email como un archivo HTML — lo abrís directo en el navegador de tu celular o computadora con un solo clic, sin necesidad de apps ni programas especiales. Se ve perfecto en cualquier dispositivo. El Premium y Elite incluyen links a videos de referencia de cada ejercicio.</div>
     </div>
     <div class="faq-item">
       <button class="faq-q" onclick="toggleFaq(this)">
@@ -834,7 +837,7 @@
   <div class="footer-links">
     <a href="javascript:void(0)" onclick="openModal('terminos')">Términos y devoluciones</a>
     <a href="javascript:void(0)" onclick="openModal('privacidad')">Privacidad</a>
-    <a href="mailto:martinezperaltaignacio@gmail.com">Contacto</a>
+    <a href="mailto:holowell.padelfit@gmail.com">Contacto</a>
   </div>
 </footer>
 
@@ -847,18 +850,18 @@
       <h3 style="font-family:'DM Serif Display',serif; font-size:1.5rem; margin-bottom:1.5rem;">Términos del servicio y política de devoluciones</h3>
 
       <p style="font-size:0.85rem; font-weight:500; color:var(--gray); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">Servicio</p>
-      <p style="font-size:0.875rem; line-height:1.7; color:var(--black); margin-bottom:1.25rem;">PadelFit ofrece planes de entrenamiento físico personalizados en formato digital (PDF). El plan se entrega al email declarado en el formulario dentro del plazo indicado en el plan contratado (12, 24 o 48 horas hábiles según el tipo de plan).</p>
+      <p style="font-size:0.875rem; line-height:1.7; color:var(--black); margin-bottom:1.25rem;">PadelFit ofrece planes de entrenamiento físico personalizados en formato digital HTML. El plan se entrega al email declarado en el formulario en menos de 8 horas hábiles desde la confirmación del pago. El archivo HTML se abre directamente en cualquier navegador de celular o computadora sin necesidad de aplicaciones adicionales.</p>
 
       <p style="font-size:0.85rem; font-weight:500; color:var(--gray); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">Devoluciones</p>
       <p style="font-size:0.875rem; line-height:1.7; color:var(--black); margin-bottom:1.25rem;">Por tratarse de un producto digital personalizado, <strong>no se aceptan devoluciones una vez entregado el plan</strong>. Si el plan fue entregado con errores evidentes respecto a los datos declarados en el formulario, el cliente tiene derecho a solicitar una corrección sin costo adicional dentro de los 5 días hábiles de recibido.</p>
 
       <p style="font-size:0.85rem; font-weight:500; color:var(--gray); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">Derecho de arrepentimiento</p>
-      <p style="font-size:0.875rem; line-height:1.7; color:var(--black); margin-bottom:1.25rem;">De acuerdo con la Ley 24.240 de Defensa del Consumidor de la República Argentina, el consumidor tiene derecho a revocar la aceptación dentro de los <strong>10 días corridos</strong> de realizado el pago, siempre que el plan no haya sido entregado aún. Para ejercer este derecho, enviá un email a martinezperaltaignacio@gmail.com con el asunto "Arrepentimiento de compra" y el comprobante de pago.</p>
+      <p style="font-size:0.875rem; line-height:1.7; color:var(--black); margin-bottom:1.25rem;">De acuerdo con la Ley 24.240 de Defensa del Consumidor de la República Argentina, el consumidor tiene derecho a revocar la aceptación dentro de los <strong>10 días corridos</strong> de realizado el pago, siempre que el plan no haya sido entregado aún. Para ejercer este derecho, enviá un email a holowell.padelfit@gmail.com con el asunto "Arrepentimiento de compra" y el comprobante de pago.</p>
 
       <p style="font-size:0.85rem; font-weight:500; color:var(--gray); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">Aviso de salud</p>
       <p style="font-size:0.875rem; line-height:1.7; color:var(--black); margin-bottom:1.25rem;">Los planes son orientativos y no reemplazan la consulta con profesionales de la salud. PadelFit no se responsabiliza por lesiones derivadas del uso incorrecto del plan o de la omisión de información médica relevante por parte del cliente.</p>
 
-      <p style="font-size:0.875rem; line-height:1.7; color:var(--black);">Para consultas: <a href="mailto:martinezperaltaignacio@gmail.com" style="color:var(--green);">martinezperaltaignacio@gmail.com</a></p>
+      <p style="font-size:0.875rem; line-height:1.7; color:var(--black);">Para consultas: <a href="mailto:holowell.padelfit@gmail.com" style="color:var(--green);">holowell.padelfit@gmail.com</a></p>
     </div>
 
     <div id="modal-privacidad" style="display:none;">
@@ -871,9 +874,9 @@
       <p style="font-size:0.875rem; line-height:1.7; color:var(--black); margin-bottom:1.25rem;">Tus datos se usan exclusivamente para elaborar y enviarte tu plan de entrenamiento. No compartimos tu información con terceros, excepto con MercadoPago para procesar el pago, bajo sus propios términos de privacidad.</p>
 
       <p style="font-size:0.85rem; font-weight:500; color:var(--gray); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:0.5rem;">Protección de datos</p>
-      <p style="font-size:0.875rem; line-height:1.7; color:var(--black); margin-bottom:1.25rem;">Cumplimos con la Ley 25.326 de Protección de Datos Personales de la República Argentina. Tenés derecho a acceder, rectificar o eliminar tus datos enviando un email a martinezperaltaignacio@gmail.com.</p>
+      <p style="font-size:0.875rem; line-height:1.7; color:var(--black); margin-bottom:1.25rem;">Cumplimos con la Ley 25.326 de Protección de Datos Personales de la República Argentina. Tenés derecho a acceder, rectificar o eliminar tus datos enviando un email a holowell.padelfit@gmail.com.</p>
 
-      <p style="font-size:0.875rem; line-height:1.7; color:var(--black);">Contacto: <a href="mailto:martinezperaltaignacio@gmail.com" style="color:var(--green);">martinezperaltaignacio@gmail.com</a></p>
+      <p style="font-size:0.875rem; line-height:1.7; color:var(--black);">Contacto: <a href="mailto:holowell.padelfit@gmail.com" style="color:var(--green);">holowell.padelfit@gmail.com</a></p>
     </div>
   </div>
 </div>
